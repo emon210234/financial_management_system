@@ -376,6 +376,10 @@ After setup, test the following:
 
 New to collaborative development with Git and GitHub? We've got you covered!
 
+### 🚀 **[START HERE - Learning Roadmap](./START_HERE.md)**
+
+Begin your journey with our comprehensive learning roadmap that guides you through all the resources!
+
 ### Comprehensive Learning Resources
 
 This repository includes extensive guides to help you master Git and GitHub for seamless collaboration:
@@ -416,18 +420,22 @@ This repository includes extensive guides to help you master Git and GitHub for 
 
 ### Getting Started with Collaboration
 
-If you're new to Git collaboration:
-1. Start with the **Git Collaboration Guide** for comprehensive learning
-2. Use the **Quick Reference** as you work
-3. Complete the **Exercises** with your teammate
-4. Follow the **Collaboration Workflow** for your team
-5. Refer to the **Visual Guide** when concepts are unclear
+**New to Git collaboration? Follow these steps:**
+
+1. **Start with [START_HERE.md](./START_HERE.md)** - Your complete learning roadmap
+2. **Read the [Git Collaboration Guide](./GIT_COLLABORATION_GUIDE.md)** for comprehensive learning
+3. **Use the [Quick Reference](./GIT_QUICK_REFERENCE.md)** as you work
+4. **Complete the [Exercises](./GIT_EXERCISES.md)** with your teammate
+5. **Follow the [Collaboration Workflow](./COLLABORATION_WORKFLOW.md)** for your team
+6. **Refer to the [Visual Guide](./GIT_VISUAL_GUIDE.md)** when concepts are unclear
 
 These guides are designed to be:
 - ✅ Beginner-friendly with step-by-step instructions
 - ✅ Practical with real-world examples
 - ✅ Comprehensive covering all essential topics
 - ✅ Self-sufficient for teaching others
+
+**Total learning material: 1,600+ lines covering everything from basics to advanced collaboration!**
 
 ## 📄 License
 
