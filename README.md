@@ -372,6 +372,71 @@ After setup, test the following:
 4. Push to the branch
 5. Create a Pull Request
 
+## 📚 Learning Git & GitHub Collaboration
+
+New to collaborative development with Git and GitHub? We've got you covered!
+
+### 🚀 **[START HERE - Learning Roadmap](./START_HERE.md)**
+
+Begin your journey with our comprehensive learning roadmap that guides you through all the resources!
+
+### Comprehensive Learning Resources
+
+This repository includes extensive guides to help you master Git and GitHub for seamless collaboration:
+
+1. **[Git Collaboration Guide](./GIT_COLLABORATION_GUIDE.md)** - Complete guide covering everything from basic Git concepts to advanced collaborative workflows
+   - Understanding Git basics and remote repositories
+   - Branching strategies and workflows
+   - Pull requests and code reviews
+   - Handling merge conflicts
+   - Best practices and tips
+
+2. **[Git Quick Reference](./GIT_QUICK_REFERENCE.md)** - Quick lookup for common Git commands and scenarios
+   - Daily workflow commands
+   - Branch management
+   - Undo operations
+   - Troubleshooting common issues
+   - Emergency fixes
+
+3. **[Git Exercises](./GIT_EXERCISES.md)** - Hands-on practical exercises to practice Git skills
+   - 10 progressive exercises
+   - Branch creation and navigation
+   - Pull request workflow
+   - Conflict resolution practice
+   - Real-world scenarios
+
+4. **[Collaboration Workflow](./COLLABORATION_WORKFLOW.md)** - Team workflow standards and best practices
+   - Daily routines and processes
+   - Branching strategy
+   - Communication protocols
+   - Code review guidelines
+   - Project management
+
+5. **[Git Visual Guide](./GIT_VISUAL_GUIDE.md)** - Visual diagrams to understand Git concepts
+   - ASCII diagrams of Git operations
+   - Branch visualization
+   - Merge and rebase explained
+   - Conflict resolution visuals
+
+### Getting Started with Collaboration
+
+**New to Git collaboration? Follow these steps:**
+
+1. **Start with [START_HERE.md](./START_HERE.md)** - Your complete learning roadmap
+2. **Read the [Git Collaboration Guide](./GIT_COLLABORATION_GUIDE.md)** for comprehensive learning
+3. **Use the [Quick Reference](./GIT_QUICK_REFERENCE.md)** as you work
+4. **Complete the [Exercises](./GIT_EXERCISES.md)** with your teammate
+5. **Follow the [Collaboration Workflow](./COLLABORATION_WORKFLOW.md)** for your team
+6. **Refer to the [Visual Guide](./GIT_VISUAL_GUIDE.md)** when concepts are unclear
+
+These guides are designed to be:
+- ✅ Beginner-friendly with step-by-step instructions
+- ✅ Practical with real-world examples
+- ✅ Comprehensive covering all essential topics
+- ✅ Self-sufficient for teaching others
+
+**Total learning material: 3,800+ lines covering everything from basics to advanced collaboration!**
+
 ## 📄 License
 
 This project is licensed under the ISC License.
