@@ -70,9 +70,11 @@ git remote -v
 Your friend needs to get a copy of the repository:
 
 ```bash
-git clone https://github.com/emon210234/financial_management_system.git
-cd financial_management_system
+git clone https://github.com/USERNAME/REPOSITORY.git
+cd REPOSITORY
 ```
+
+Replace `USERNAME/REPOSITORY` with your actual GitHub username and repository name.
 
 **What this does**: Downloads the entire project and its history to their computer.
 

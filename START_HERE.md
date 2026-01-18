@@ -8,13 +8,13 @@ Welcome! This document will guide you on how to use all the learning resources w
 
 We've created **5 comprehensive documents** to teach you everything about Git and GitHub collaboration:
 
-1. **GIT_COLLABORATION_GUIDE.md** (Main Guide - 400+ lines)
-2. **GIT_QUICK_REFERENCE.md** (Quick Lookup - 200+ lines)  
-3. **GIT_EXERCISES.md** (Hands-On Practice - 400+ lines)
-4. **COLLABORATION_WORKFLOW.md** (Team Standards - 300+ lines)
-5. **GIT_VISUAL_GUIDE.md** (Visual Diagrams - 300+ lines)
+1. **GIT_COLLABORATION_GUIDE.md** (Main Guide - 850+ lines)
+2. **GIT_QUICK_REFERENCE.md** (Quick Lookup - 500+ lines)  
+3. **GIT_EXERCISES.md** (Hands-On Practice - 900+ lines)
+4. **COLLABORATION_WORKFLOW.md** (Team Standards - 780+ lines)
+5. **GIT_VISUAL_GUIDE.md** (Visual Diagrams - 750+ lines)
 
-Total: **1,600+ lines of comprehensive learning material!**
+Total: **3,800+ lines of comprehensive learning material!**
 
 ---
 
@@ -406,11 +406,11 @@ Happy learning and collaborating! 🚀
 
 | Document | Purpose | Length | When to Use |
 |----------|---------|--------|-------------|
-| GIT_COLLABORATION_GUIDE.md | Complete learning guide | 400+ lines | Learning concepts |
-| GIT_QUICK_REFERENCE.md | Command reference | 200+ lines | During work |
-| GIT_EXERCISES.md | Practice exercises | 400+ lines | Hands-on practice |
-| COLLABORATION_WORKFLOW.md | Team standards | 300+ lines | Team setup |
-| GIT_VISUAL_GUIDE.md | Visual explanations | 300+ lines | Understanding concepts |
+| GIT_COLLABORATION_GUIDE.md | Complete learning guide | 850+ lines | Learning concepts |
+| GIT_QUICK_REFERENCE.md | Command reference | 500+ lines | During work |
+| GIT_EXERCISES.md | Practice exercises | 900+ lines | Hands-on practice |
+| COLLABORATION_WORKFLOW.md | Team standards | 780+ lines | Team setup |
+| GIT_VISUAL_GUIDE.md | Visual explanations | 750+ lines | Understanding concepts |
 | **THIS FILE** | Learning roadmap | You're here! | Getting started |
 
 *Last Updated: 2026-01-18*
