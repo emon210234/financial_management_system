@@ -60,6 +60,19 @@ export const authAPI = {
   },
 };
 
+// Quote API calls
+export const quoteAPI = {
+  getDailyQuote: async () => {
+    const response = await api.get('/quotes/daily');
+    return response.data;
+  },
+
+  refreshQuote: async () => {
+    const response = await api.post('/quotes/refresh');
+    return response.data;
+  },
+};
+
 export const googleAuthURL = `${API_URL}/auth/google`;
 
 export default api;

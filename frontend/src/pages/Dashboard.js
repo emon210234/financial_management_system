@@ -1,11 +1,34 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
+import { quoteAPI } from '../services/api';
 import './Dashboard.css';
 
 const Dashboard = () => {
   const navigate = useNavigate();
   const { user, logout } = useAuth();
+  const [quote, setQuote] = useState(null);
+  const [quoteLoading, setQuoteLoading] = useState(true);
+  const [quoteError, setQuoteError] = useState(null);
+
+  // Fetch daily quote on component mount
+  useEffect(() => {
+    fetchDailyQuote();
+  }, []);
+
+  const fetchDailyQuote = async () => {
+    try {
+      setQuoteLoading(true);
+      setQuoteError(null);
+      const data = await quoteAPI.getDailyQuote();
+      setQuote(data.quote);
+    } catch (error) {
+      console.error('Failed to fetch quote:', error);
+      setQuoteError('Failed to load daily inspiration');
+    } finally {
+      setQuoteLoading(false);
+    }
+  };
 
   const handleLogout = async () => {
     await logout();
@@ -22,6 +45,32 @@ const Dashboard = () => {
       </nav>
 
       <div className="dashboard-content">
+        {/* Daily Quote Section */}
+        <div className="quote-section">
+          {quoteLoading ? (
+            <div className="quote-loading">
+              <div className="spinner"></div>
+              <p>Loading your daily inspiration...</p>
+            </div>
+          ) : quoteError ? (
+            <div className="quote-error">
+              <span>💡</span>
+              <p>{quoteError}</p>
+            </div>
+          ) : quote ? (
+            <div className="quote-card">
+              <div className="quote-icon">💰</div>
+              <blockquote className="quote-text">"{quote.text}"</blockquote>
+              <div className="quote-footer">
+                <span className="quote-label">Daily Financial Wisdom</span>
+                <span className="quote-refresh" title="Refreshes automatically every 24 hours">
+                  🔄 Refreshes daily
+                </span>
+              </div>
+            </div>
+          ) : null}
+        </div>
+
         <div className="welcome-card">
           <div className="user-info">
             {user?.profilePicture && (
