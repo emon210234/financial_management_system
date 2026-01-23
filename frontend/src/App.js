@@ -5,6 +5,7 @@ import Login from './components/auth/Login';
 import Register from './components/auth/Register';
 import AuthCallback from './components/auth/AuthCallback';
 import Dashboard from './pages/Dashboard';
+import Transactions from './pages/Transactions';
 import PrivateRoute from './components/PrivateRoute';
 import './styles/App.css';
 
@@ -21,6 +22,14 @@ function App() {
             element={
               <PrivateRoute>
                 <Dashboard />
+              </PrivateRoute>
+            } 
+          />
+          <Route 
+            path="/transactions" 
+            element={
+              <PrivateRoute>
+                <Transactions />
               </PrivateRoute>
             } 
           />

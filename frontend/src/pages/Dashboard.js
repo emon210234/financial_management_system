@@ -91,14 +91,14 @@ const Dashboard = () => {
         </div>
 
         <div className="features-grid">
-          <div className="feature-card">
-            <h3>📊 Financial Overview</h3>
-            <p>View your financial summary and analytics</p>
+          <div className="feature-card" onClick={() => navigate('/transactions')} style={{ cursor: 'pointer' }}>
+            <h3>💰 Transactions</h3>
+            <p>Track your income and expenses in real-time</p>
           </div>
           
           <div className="feature-card">
-            <h3>💰 Transactions</h3>
-            <p>Track your income and expenses</p>
+            <h3>📊 Financial Overview</h3>
+            <p>View your financial summary and analytics</p>
           </div>
           
           <div className="feature-card">
@@ -113,13 +113,14 @@ const Dashboard = () => {
         </div>
 
         <div className="info-card">
-          <h3>🎉 Authentication System Active</h3>
-          <p>You have successfully logged in to the Financial Management System!</p>
+          <h3>🚀 Start Managing Your Finances</h3>
+          <p>Click on the <strong>Transactions</strong> card above to start tracking your income and expenses!</p>
           <ul>
-            <li>✅ Email/Password authentication working</li>
-            <li>✅ Google OAuth authentication working</li>
-            <li>✅ JWT-based session management active</li>
-            <li>✅ Protected routes secured</li>
+            <li>✅ Add income and expense transactions</li>
+            <li>✅ Get AI-powered financial insights</li>
+            <li>✅ Track spending by category</li>
+            <li>✅ Monitor your savings rate</li>
+            <li>✅ All data saved automatically</li>
           </ul>
         </div>
       </div>

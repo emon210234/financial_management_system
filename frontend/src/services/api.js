@@ -73,6 +73,51 @@ export const quoteAPI = {
   },
 };
 
+// Transaction API calls
+export const transactionAPI = {
+  // Get all transactions with optional filters
+  getTransactions: async (filters = {}) => {
+    const response = await api.get('/transactions', { params: filters });
+    return response.data;
+  },
+
+  // Get single transaction
+  getTransaction: async (id) => {
+    const response = await api.get(`/transactions/${id}`);
+    return response.data;
+  },
+
+  // Create new transaction
+  createTransaction: async (transactionData) => {
+    const response = await api.post('/transactions', transactionData);
+    return response.data;
+  },
+
+  // Update transaction
+  updateTransaction: async (id, transactionData) => {
+    const response = await api.put(`/transactions/${id}`, transactionData);
+    return response.data;
+  },
+
+  // Delete transaction
+  deleteTransaction: async (id) => {
+    const response = await api.delete(`/transactions/${id}`);
+    return response.data;
+  },
+
+  // Get financial summary
+  getSummary: async (dateRange = {}) => {
+    const response = await api.get('/transactions/summary', { params: dateRange });
+    return response.data;
+  },
+
+  // Get AI analysis
+  getAIAnalysis: async (dateRange = {}) => {
+    const response = await api.get('/transactions/analysis', { params: dateRange });
+    return response.data;
+  },
+};
+
 export const googleAuthURL = `${API_URL}/auth/google`;
 
 export default api;

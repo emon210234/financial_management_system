@@ -10,6 +10,7 @@ import connectDB from './config/database.js';
 import passportConfig from './config/passport.js';
 import authRoutes from './routes/authRoutes.js';
 import quoteRoutes from './routes/quoteRoutes.js';
+import transactionRoutes from './routes/transactionRoutes.js';
 
 // Initialize express app
 const app = express();
@@ -36,6 +37,7 @@ app.use(passportConfig.initialize());
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/quotes', quoteRoutes);
+app.use('/api/transactions', transactionRoutes);
 
 // Health check route
 app.get('/api/health', (req, res) => {
