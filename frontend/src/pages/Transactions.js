@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { useAuth } from '../../context/AuthContext';
-import { transactionAPI } from '../../services/api';
-import TransactionForm from '../../components/transactions/TransactionForm';
-import TransactionList from '../../components/transactions/TransactionList';
-import FinancialSummary from '../../components/transactions/FinancialSummary';
-import AIInsights from '../../components/transactions/AIInsights';
+import { useAuth } from '../context/AuthContext';
+import { transactionAPI } from '../services/api';
+import TransactionForm from '../components/transactions/TransactionForm';
+import TransactionList from '../components/transactions/TransactionList';
+import FinancialSummary from '../components/transactions/FinancialSummary';
+import AIInsights from '../components/transactions/AIInsights';
 import './Transactions.css';
 
 const Transactions = () => {

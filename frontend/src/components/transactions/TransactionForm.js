@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { transactionAPI } from '../../services/api';
-import './Transactions.css';
 
 const TRANSACTION_CATEGORIES = {
   income: [
